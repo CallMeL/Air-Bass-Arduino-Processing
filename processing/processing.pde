@@ -33,7 +33,7 @@ void setup() {
   minimG = new Minim(this);
   minimE = new Minim(this);
   minimD = new Minim(this);
-  blank = minimA.loadSample( "blank.wav", 1024);
+
   //=== A:
   a1 = minimA.loadSample( "a1.wav", 1024);
   a2 = minimA.loadSample( "a2.wav", 1024);
@@ -86,97 +86,92 @@ void serialEvent(Serial myPort) {
       
     }
   }else{
+    //=== PROCESS INPUT STRING
+    String myString = myPort.readString();  
+    myString = trim(myString);//REMOVE WHITESPACE & BREAK UP INTO INTEGERS
+    int sensors[] = int(split(myString, ','));
+    //=== DEFINE DISTANCE
+    int sen1 = sensors[1];
+    int sen2 = sensors[2];
+    int sen3 = sensors[3];
+    int sen4 = sensors[5];
+    int distance = sensors[4];
+    //===  PRINT OUT VALUES
+    println(sen1+" "+sen2+" "+sen3+" "+sen4+" "+"\n"+distance+" ");
 
-  String myString = myPort.readString();
-  //println(myString);
-  //=== REMOVE WHITESPACE & BREAK UP INTO INTEGERS
-  myString = trim(myString);
-  int sensors[] = int(split(myString, ','));
-  //=== DEFINE DISTANCE
-  int sen1 = sensors[1];
-  int sen2 = sensors[2];
-  int sen3 = sensors[3];
-  int sen4 = sensors[5];
-  int distance = sensors[4];
-  //===  PRINT OUT VALUES
-  println(sen1+" "+sen2+" "+sen3+" "+sen4+" "+"\n"+distance+" ");
-  //G D A E
-  //a1.trigger();
-
-  if(sen1==1){
-    myPort.write("1");
-    if(distance<=k1){g1.trigger();println("1");}
-    else if( distance==k2){g2.trigger();println("2");}
-    else if( distance==k3){g3.trigger();println("3");}
-    else if( distance==k4){g4.trigger();println("4");}
-    else if( distance==k5){g5.trigger();println("5");}
-    else if( distance==k6){g6.trigger();println("6");}
-    else if( distance==k7){g7.trigger();println("7");}
-    else if( distance==k8){g8.trigger();println("8");}
-    else if( distance==k9){g9.trigger();println("9");}
-    else if( distance==k10){g10.trigger();println("10");}
-    else if( distance==k11){g11.trigger();println("11");}
-    else if( distance==k12){g12.trigger();println("12");}
-    else if( distance==k13){g13.trigger();println("13");}
-    else if(k13<=distance){g14.trigger();println("14");}
-    else {g14.trigger();println("wrong");}
+    if(sen1==1){
+      myPort.write("1");
+      if(distance<=k1){g1.trigger();println("1");}
+      else if( distance==k2){g2.trigger();println("2");}
+      else if( distance==k3){g3.trigger();println("3");}
+      else if( distance==k4){g4.trigger();println("4");}
+      else if( distance==k5){g5.trigger();println("5");}
+      else if( distance==k6){g6.trigger();println("6");}
+      else if( distance==k7){g7.trigger();println("7");}
+      else if( distance==k8){g8.trigger();println("8");}
+      else if( distance==k9){g9.trigger();println("9");}
+      else if( distance==k10){g10.trigger();println("10");}
+      else if( distance==k11){g11.trigger();println("11");}
+      else if( distance==k12){g12.trigger();println("12");}
+      else if( distance==k13){g13.trigger();println("13");}
+      else if(k13<=distance){g14.trigger();println("14");}
+      else {g14.trigger();println("wrong");}
+    }
+    if(sen2==1){
+      myPort.write("2");
+      if(distance<=k1){d1.trigger();println("1");}
+      else if( distance==k2){d2.trigger();println("2");}
+      else if( distance==k3){d3.trigger();println("3");}
+      else if( distance==k4){d4.trigger();println("4");}
+      else if( distance==k5){d5.trigger();println("5");}
+      else if( distance==k6){g1.trigger();println("6");}
+      else if( distance==k7){g2.trigger();println("7");}
+      else if( distance==k8){g3.trigger();println("8");}
+      else if( distance==k9){g4.trigger();println("9");}
+      else if( distance==k10){g5.trigger();println("10");}
+      else if( distance==k11){g6.trigger();println("11");}
+      else if( distance==k12){g7.trigger();println("12");}
+      else if( distance==k13){g8.trigger();println("13");}
+      else if(k13<=distance){g9.trigger();println("14");}
+      else {g14.trigger();println("wrong");}
+    }
+    if(sen3==1){
+      myPort.write("3");
+      if(distance<=k1){a1.trigger();println("1");}
+      else if( distance==k2){a2.trigger();println("2");}
+      else if( distance==k3){a3.trigger();println("3");}
+      else if( distance==k4){a4.trigger();println("4");}
+      else if( distance==k5){a5.trigger();println("5");}
+      else if( distance==k6){d1.trigger();println("6");}
+      else if( distance==k7){d2.trigger();println("7");}
+      else if( distance==k8){d3.trigger();println("8");}
+      else if( distance==k9){d4.trigger();println("9");}
+      else if( distance==k10){d5.trigger();println("10");}
+      else if( distance==k11){g1.trigger();println("11");}
+      else if( distance==k12){g2.trigger();println("12");}
+      else if( distance==k13){g3.trigger();println("13");}
+      else if(k13<=distance){g4.trigger();println("14");}
+      else {g14.trigger();println("wrong");}
+    }
+    if(sen4==1){
+      myPort.write("4");
+      if(distance<=k1){e1.trigger();println("1");}
+      else if( distance==k2){e2.trigger();println("2");}
+      else if( distance==k3){e3.trigger();println("3");}
+      else if( distance==k4){e4.trigger();println("4");}
+      else if( distance==k5){e5.trigger();println("5");}
+      else if( distance==k6){a1.trigger();println("6");}
+      else if( distance==k7){a2.trigger();println("7");}
+      else if( distance==k8){a3.trigger();println("8");}
+      else if( distance==k9){a4.trigger();println("9");}
+      else if( distance==k10){a5.trigger();println("10");}
+      else if( distance==k11){d1.trigger();println("11");}
+      else if( distance==k12){d2.trigger();println("12");}
+      else if( distance==k13){d3.trigger();println("13");}
+      else if(k13<=distance){d4.trigger();println("14");}
+      else {g14.trigger();println("wrong");}
+    }
+    
   }
-  if(sen2==1){
-    myPort.write("2");
-    if(distance<=k1){d1.trigger();println("1");}
-    else if( distance==k2){d2.trigger();println("2");}
-    else if( distance==k3){d3.trigger();println("3");}
-    else if( distance==k4){d4.trigger();println("4");}
-    else if( distance==k5){d5.trigger();println("5");}
-    else if( distance==k6){g1.trigger();println("6");}
-    else if( distance==k7){g2.trigger();println("7");}
-    else if( distance==k8){g3.trigger();println("8");}
-    else if( distance==k9){g4.trigger();println("9");}
-    else if( distance==k10){g5.trigger();println("10");}
-    else if( distance==k11){g6.trigger();println("11");}
-    else if( distance==k12){g7.trigger();println("12");}
-    else if( distance==k13){g8.trigger();println("13");}
-    else if(k13<=distance){g9.trigger();println("14");}
-    else {g14.trigger();println("wrong");}
-  }
-  if(sen3==1){
-    myPort.write("3");
-    if(distance<=k1){a1.trigger();println("1");}
-    else if( distance==k2){a2.trigger();println("2");}
-    else if( distance==k3){a3.trigger();println("3");}
-    else if( distance==k4){a4.trigger();println("4");}
-    else if( distance==k5){a5.trigger();println("5");}
-    else if( distance==k6){d1.trigger();println("6");}
-    else if( distance==k7){d2.trigger();println("7");}
-    else if( distance==k8){d3.trigger();println("8");}
-    else if( distance==k9){d4.trigger();println("9");}
-    else if( distance==k10){d5.trigger();println("10");}
-    else if( distance==k11){g1.trigger();println("11");}
-    else if( distance==k12){g2.trigger();println("12");}
-    else if( distance==k13){g3.trigger();println("13");}
-    else if(k13<=distance){g4.trigger();println("14");}
-    else {g14.trigger();println("wrong");}
-  }
-  if(sen4==1){
-    myPort.write("4");
-    if(distance<=k1){e1.trigger();println("1");}
-    else if( distance==k2){e2.trigger();println("2");}
-    else if( distance==k3){e3.trigger();println("3");}
-    else if( distance==k4){e4.trigger();println("4");}
-    else if( distance==k5){e5.trigger();println("5");}
-    else if( distance==k6){a1.trigger();println("6");}
-    else if( distance==k7){a2.trigger();println("7");}
-    else if( distance==k8){a3.trigger();println("8");}
-    else if( distance==k9){a4.trigger();println("9");}
-    else if( distance==k10){a5.trigger();println("10");}
-    else if( distance==k11){d1.trigger();println("11");}
-    else if( distance==k12){d2.trigger();println("12");}
-    else if( distance==k13){d3.trigger();println("13");}
-    else if(k13<=distance){d4.trigger();println("14");}
-    else {g14.trigger();println("wrong");}
-  }
-  
-
-}
 
 }

@@ -2,18 +2,28 @@
 #include <Wire.h>
 #include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
+
 //========== OLED SETTING
 #define OLED_WIDTH 128
 #define OLED_HEIGHT 64
-
 #define OLED_ADDR   0x3C
-
 #define FRAME_DELAY (42)
 #define FRAME_WIDTH (48)
 #define FRAME_HEIGHT (48)
 #define FRAME_COUNT (sizeof(setting) / sizeof(setting[0]))
-
 Adafruit_SSD1306 display(OLED_WIDTH, OLED_HEIGHT);
+
+//========== SAFE DISTANCE FOR SENSOR
+#define SAFEDIS 25
+//========== PIN
+unsigned int EchoPin1 = 2;
+unsigned int TrigPin1 = 3;
+unsigned int EchoPin2 = 6;
+unsigned int TrigPin2 = 7;
+const int KeyPin1 = 8;
+const int KeyPin2 = 9;
+const int KeyPin3 = 10;
+const int KeyPin4 = 11;
 
 //========== GIF ARRAY
 const byte PROGMEM sounds[][288] = {
@@ -80,37 +90,24 @@ int frame = 0;
 
 //========== PIN SETTING
 //===== SENSOR1
-unsigned int EchoPin1 = 2;
-unsigned int TrigPin1 = 3;
-
 unsigned long Time_Echo_us_1 = 0;
 unsigned long Len_mm_X100_1  = 0; //Len_mm_X100_1 = length*100
 unsigned long Len_Integer_1 = 0; //
 unsigned int Len_Fraction_1 = 0;
-
 //===== SENSOR2
-unsigned int EchoPin2 = 7;
-unsigned int TrigPin2 = 6;
-
 unsigned long Time_Echo_us_2 = 0;
 unsigned long Len_mm_X100_2  = 0; //Len_mm_X100_2 = length*100
 unsigned long Len_Integer_2 = 0; //
 unsigned int Len_Fraction_2 = 0;
 
 //====== KEY
-const int KeyPin1 = 8;
-const int KeyPin2 = 9;
-const int KeyPin3 = 10;
-const int KeyPin4 = 11;
-
 int PinState1 = 0, PinState2 = 0, PinState3 = 0, PinState4 = 0 ;
 int Before = 0;//JITTER
-
 int inByte = 0;
+
 //========== SETUP FUNCTION
 void setup() {
   Serial.begin(115200);
-  
   //PIN MODE
   pinMode(EchoPin1, INPUT);
   pinMode(TrigPin1, OUTPUT);
@@ -120,10 +117,8 @@ void setup() {
   pinMode(KeyPin2, INPUT);
   pinMode(KeyPin3, INPUT);
   pinMode(KeyPin4, INPUT);
-  
   //OLED
   display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR);
-  
   //ESTABLISH CONTACT
   establishContact();
 }
@@ -131,31 +126,29 @@ void setup() {
 void loop() {
   //====== SENSOR: CALCULATE DISTANCE
   int distance_calculated = calculatDistance();
+
   //====== PIN
   PinState1 = digitalRead(KeyPin1);
   PinState2 = digitalRead(KeyPin2);
   PinState3 = digitalRead(KeyPin3);
   PinState4 = digitalRead(KeyPin4);
+
   //====== JITTER & PRINT TO SERIAL
   if ((PinState1 || PinState2 || PinState3 || PinState4) && Before == 0) {
-    //print to serial as (pinstate1,pinstate2,pinstate3,pinstate4,distance_calculated)
     Serial.print(PinState1); Serial.print(",");
     Serial.print(PinState1); Serial.print(",");
     Serial.print(PinState2); Serial.print(",");
     Serial.print(PinState3); Serial.print(",");
-    Serial.print(distance_calculated, DEC);Serial.print(",");
+    Serial.print(distance_calculated, DEC); Serial.print(",");
     Serial.print(PinState4); Serial.println(",");
-    
-    
     Before = !Before;
 
   } else if (!(PinState1 || PinState2 || PinState3 || PinState4) && Before == 1) {
-    //print to serial as (pinstate1,pinstate2,pinstate3,pinstate4,distance_calculated)
     Serial.print(PinState1); Serial.print(",");
     Serial.print(PinState1); Serial.print(",");
     Serial.print(PinState2); Serial.print(",");
     Serial.print(PinState3); Serial.print(",");
-    Serial.print(distance_calculated, DEC);Serial.print(",");
+    Serial.print(distance_calculated, DEC); Serial.print(",");
     Serial.print(PinState4); Serial.println(",");
 
     Before = !Before;
@@ -166,33 +159,16 @@ void loop() {
 }
 void oledDisplay(int distance) {
   display.clearDisplay();
-  
-  //===== DISPLAY TEXT 
+
+  //===== DISPLAY TEXT
   display.setTextSize(2);
   display.setTextColor(WHITE);
   display.setCursor(0, 0);
   display.println("Playing");
 
-  //===== DISPLAY STRINGS
-  char incoming = Serial.read();
-  if (incoming != 'A') {
-    char stringChar = ' ';
-    char stringNum = distance + ' ';
-    //====
-    switch (incoming) {
-      case '1': stringChar = 'G';
-      case '2': stringChar = 'D';
-      case '3': stringChar = 'A';
-      case '4': stringChar = 'E';
-      default : stringChar = 'L';
-    }
-    
-    display.setCursor(80, 30);
-    display.println(stringChar+stringNum);
-  }
   //===== DISPLAY DISTANCE
-  display.setTextSize(1.5);
-  display.setCursor(80, 50);
+  display.setTextSize(2);
+  display.setCursor(85, 30);
   display.println(distance);
 
   //===== MUSIC GIF
@@ -211,6 +187,7 @@ void establishContact() {
 }
 int calculatDistance() {
   int result;
+  
   //===== SENSOR1
   digitalWrite(TrigPin1, HIGH);
   delayMicroseconds(50);
@@ -222,7 +199,7 @@ int calculatDistance() {
     Len_Integer_1 = Len_mm_X100_1 / 100;
     Len_Fraction_1 = Len_mm_X100_1 % 100;
   }
-  
+
   //===== SENSOR2
   digitalWrite(TrigPin2, HIGH);
   delayMicroseconds(50);
@@ -234,12 +211,17 @@ int calculatDistance() {
     Len_Integer_2 = Len_mm_X100_2 / 100;
     Len_Fraction_2 = Len_mm_X100_2 % 100;
   }
+  
   //===== RESULT
-    int x = Len_Integer_1 - 30;
-  int y = Len_Integer_2 - 30;//20 is safe area
-  if(Len_Integer_1 < 20){x=0;}
-  if(Len_Integer_2 < 20){y=0;}
-  result = 14 * x / (x+y);
+  int x = Len_Integer_1 - SAFEDIS;
+  int y = Len_Integer_2 - SAFEDIS;
+  if (Len_Integer_1 < SAFEDIS) {
+    x = 0;
+  }
+  if (Len_Integer_2 < SAFEDIS) {
+    y = 0;
+  }
+  result = 14 * x / (x + y);
   return result;
 
 }
