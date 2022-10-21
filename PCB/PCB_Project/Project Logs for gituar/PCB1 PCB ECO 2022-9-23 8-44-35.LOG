@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=Echo2 Pin=S1-2
+Removed Pin From Net: NetName=Echo Pin=S2-2
+Added Pin To Net: NetName=Echo Pin=S1-2
+Added Pin To Net: NetName=Echo2 Pin=S2-2
+Added Room: Name=main
+Added Room: Name=TTP224

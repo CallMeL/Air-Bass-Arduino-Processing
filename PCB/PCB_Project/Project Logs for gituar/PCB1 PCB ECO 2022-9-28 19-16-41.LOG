@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VCC Pin=C25-2
+Removed Pin From Net: NetName=VCC Pin=C26-2
+Change Component Footprint: Designator=J1 Old Footprint=629105150921 New Footprint=629105150921
+Added Pin To Net: NetName=RST Pin=C25-2
+Added Pin To Net: NetName=RST Pin=C26-2
+Added Pin To Net: NetName=OUT1 Pin=U1-23
+Added Pin To Net: NetName=OUT2 Pin=U1-24
+Added Pin To Net: NetName=OUT3 Pin=U1-25
+Added Pin To Net: NetName=OUT4 Pin=U1-26
+Added Room: Name=Sheet1
+Added Room: Name=TTP224

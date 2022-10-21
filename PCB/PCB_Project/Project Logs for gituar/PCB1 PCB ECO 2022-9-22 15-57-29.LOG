@@ -1,0 +1,47 @@
+Change Component Footprint: Designator=Y1-2 Old Footprint=FOX-FOXSLF160-20 New Footprint=FOX-FOXSLF160-20
+Change Component Footprint: Designator=Y1 Old Footprint=FOX-FOXSLF160-20 New Footprint=FOX-FOXSLF160-20
+Added Component: Designator=U1(32A_L - duplicate)
+Add component (AddParameter): Name = "Code_JEDEC"; Value = "MS-026-ABA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.atmel.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "ATmega48A/48PA/88A/88PA/168A/168PA/328/328P Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "ATmega48A/48PA/88A/88PA/168A/168PA/328/328P Summary"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "http://www.atmel.com/dyn/resources/prod_documents/8271S.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "revD, May-2011"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "32-Lead, 7x7x1.0 mm Body, 0.8mm Lead Pitch, Thin Profile Plastic Quad Flat Package (TQFP)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "32A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "revC, Oct-2010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RevisionNote"; Value = "DatasheetVersion & PackageVersion updated. URLs added."; VariantName = "[No Variations]"
+Added Pin To Net: NetName=RESET Pin=R1-10-2
+Added Pin To Net: NetName=RESET Pin=S1-1-2
+Added Pin To Net: NetName=GND Pin=U1-3
+Added Pin To Net: NetName=NetC1-1_1 Pin=U1-4
+Added Pin To Net: NetName=GND Pin=U1-5
+Added Pin To Net: NetName=NetC1-1_1 Pin=U1-6
+Added Pin To Net: NetName=NetC1-3_1 Pin=U1-7
+Added Pin To Net: NetName=NetC1-4_1 Pin=U1-8
+Added Pin To Net: NetName=NetR1-1_2 Pin=U1-9
+Added Pin To Net: NetName=Echo2 Pin=U1-10
+Added Pin To Net: NetName=Trigger2 Pin=U1-11
+Added Pin To Net: NetName=SDA Pin=U1-12
+Added Pin To Net: NetName=SCL Pin=U1-13
+Added Pin To Net: NetName=MOSI Pin=U1-15
+Added Pin To Net: NetName=MISO Pin=U1-16
+Added Pin To Net: NetName=SCK Pin=U1-17
+Added Pin To Net: NetName=NetC1-1_1 Pin=U1-18
+Added Pin To Net: NetName=NetC1-2_1 Pin=U1-20
+Added Pin To Net: NetName=GND Pin=U1-21
+Added Pin To Net: NetName=OUT1 Pin=U1-23
+Added Pin To Net: NetName=OUT2 Pin=U1-24
+Added Pin To Net: NetName=OUT3 Pin=U1-25
+Added Pin To Net: NetName=OUT4 Pin=U1-26
+Added Pin To Net: NetName=Echo Pin=U1-27
+Added Pin To Net: NetName=Trigger Pin=U1-28
+Added Pin To Net: NetName=RESET Pin=U1-29
+Added Pin To Net: NetName=NetR1-5_1 Pin=U1-30
+Added Pin To Net: NetName=NetR1-4_1 Pin=U1-31
+Added Pin To Net: NetName=NetR1-2_2 Pin=U1-32
+Added Member To Class: ClassName=main Member=Component U1 ATmega328P-AU
+Added Room: Name=main
+Added Room: Name=TTP224

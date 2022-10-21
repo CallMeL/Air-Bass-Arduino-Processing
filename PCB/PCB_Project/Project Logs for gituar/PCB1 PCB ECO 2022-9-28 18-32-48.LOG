@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=RST Pin=C1-5-2
+Removed Pin From Net: NetName=RST Pin=U1-4
+Removed Pin From Net: NetName=RST Pin=U1-6
+Removed Pin From Net: NetName=NetR2-3_2 Pin=U1-18
+Change Component Footprint: Designator=Y1 Old Footprint=FOX-FOXSLF160-20 New Footprint=FOX-FOXSLF160-20
+Change Component Footprint: Designator=Y2 Old Footprint=FOX-FOXSLF160-20 New Footprint=FOX-FOXSLF160-20
+Added Component: Designator=F1(FP-MF-MSMF020-2-MFG)
+Added Component: Designator=J1(629105150921)
+Add Pin To Net: Unknown Pin: Pin F1-1
+Add Pin To Net: Unknown Pin: Pin F1-2
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-5
+Add Pin To Net: Unknown Pin: Pin J1-Shell
+Added Pin To Net: NetName=VCC Pin=C1-5-2
+Added Pin To Net: NetName=VCC Pin=U1-4
+Added Pin To Net: NetName=VCC Pin=U1-6
+Added Pin To Net: NetName=VCC Pin=U1-18
+Added Net: Name=VCC
+Add Class Member: Failed to add class member : Component F1 MF-MSMF020-2
+Add Class Member: Failed to add class member : Component J1 629105150921
+Added Room: Name=Sheet1
+Added Room: Name=TTP224

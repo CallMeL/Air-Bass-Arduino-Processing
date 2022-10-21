@@ -1,0 +1,40 @@
+Removed Pin From Net: NetName=OUT1 Pin=Btn-13
+Removed Pin From Net: NetName=OUT2 Pin=Btn-14
+Removed Pin From Net: NetName=OUT3 Pin=Btn-15
+Removed Pin From Net: NetName=OUT4 Pin=Btn-16
+Removed Pin From Net: NetName=VCC Pin=C1-5-2
+Removed Pin From Net: NetName=NetR2-3_2 Pin=R2-4-2
+Removed Pin From Net: NetName=VCC Pin=U1-4
+Removed Pin From Net: NetName=VCC Pin=U1-6
+Removed Pin From Net: NetName=VCC Pin=U1-18
+Removed Pin From Net: NetName=NetR2-3_2 Pin=U2-3
+Added Component: Designator=C1-6(0805)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Component: Designator=C1-7(0805)
+Add component (AddParameter): Name = "Value"; Value = "22pF"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=OUT4 Pin=Btn-13
+Added Pin To Net: NetName=OUT3 Pin=Btn-14
+Added Pin To Net: NetName=OUT2 Pin=Btn-15
+Added Pin To Net: NetName=OUT1 Pin=Btn-16
+Added Pin To Net: NetName=VCC Pin=C1-2-2
+Added Pin To Net: NetName=GND Pin=C1-6-1
+Added Pin To Net: NetName=GND Pin=C1-7-1
+Added Pin To Net: NetName=VCC Pin=ISP-5
+Added Pin To Net: NetName=VCC Pin=R1-1-1
+Added Pin To Net: NetName=NetR2-4_2 Pin=R2-4-2
+Added Pin To Net: NetName=VCC Pin=S1-1-1
+Added Pin To Net: NetName=VCC Pin=S2-4
+Added Pin To Net: NetName=VCC Pin=U1-29
+Added Pin To Net: NetName=NetR2-4_2 Pin=U2-3
+Change Net Name : Old Net Name=VCC New Net Name=RST
+Added Pin To Net: NetName=VCC Pin=C1-5-2
+Added Pin To Net: NetName=VCC Pin=C1-6-2
+Added Pin To Net: NetName=VCC Pin=C1-7-2
+Added Pin To Net: NetName=VCC Pin=U1-4
+Added Pin To Net: NetName=VCC Pin=U1-6
+Added Pin To Net: NetName=VCC Pin=U1-18
+Added Net: Name=VCC
+Added Member To Class: ClassName=Sheet1 Member=Component C1-6 CAP
+Added Member To Class: ClassName=Sheet1 Member=Component C1-7 CAP
+Added Room: Name=Sheet1
+Added Room: Name=TTP224

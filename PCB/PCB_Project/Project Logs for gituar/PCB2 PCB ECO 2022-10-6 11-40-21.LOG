@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=VCC Pin=D3-1
+Removed Pin From Net: NetName=VCC Pin=F1-1
+Removed Pin From Net: NetName=VCC Pin=R1-1-1
+Removed Pin From Net: NetName=RST Pin=R1-1-2
+Removed Pin From Net: NetName=VCC Pin=S1-1-1
+Added Pin To Net: NetName=RST Pin=R1-1-1
+Added Pin To Net: NetName=VCC Pin=R1-1-2
+Added Pin To Net: NetName=RST Pin=S1-1-1
+Change Net Name : Old Net Name=NetD3_1 New Net Name=NetD3_2
+Added Room: Name=Sheet1
+Added Room: Name=TTP224

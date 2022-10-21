@@ -1,0 +1,30 @@
+Change Component Footprint: Designator=F1 Old Footprint=FP-MF-MSMF020-2-MFG New Footprint=FP-MF-MSMF020-2-MFG
+Added Component: Designator=J1(629105150921)
+Add component (AddParameter): Name = "Connector Type"; Value = "MicroUSB2.0TypeAB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "30mOhm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "https://katalog.we-online.de/em/datasheet/614105150621.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Receptacle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.we-online.de"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "THT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40to85degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "614105150621"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "614105150621"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "WurthElektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Rated Current"; Value = "1.8A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "30VAC"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetF1_2 Pin=J1-1
+Added Pin To Net: NetName=D- Pin=J1-2
+Added Pin To Net: NetName=D+ Pin=J1-3
+Added Pin To Net: NetName=GND Pin=J1-5
+Added Pin To Net: NetName=GND Pin=J1-Shell
+Added Pin To Net: NetName=GND Pin=J1-Shell
+Added Pin To Net: NetName=GND Pin=J1-Shell
+Added Pin To Net: NetName=GND Pin=J1-Shell
+Added Pin To Net: NetName=GND Pin=J1-Shell
+Added Pin To Net: NetName=GND Pin=J1-Shell
+Added Member To Class: ClassName=Sheet1 Member=Component J1 614105150621
+Added Room: Name=Sheet1
+Added Room: Name=TTP224

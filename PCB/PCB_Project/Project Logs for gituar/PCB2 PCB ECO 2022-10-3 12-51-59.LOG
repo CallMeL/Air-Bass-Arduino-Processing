@@ -1,0 +1,12 @@
+Added Pin To Net: NetName=RST Pin=C1-5-2
+Added Pin To Net: NetName=RST Pin=C1-6-2
+Added Pin To Net: NetName=RST Pin=C1-7-2
+Added Pin To Net: NetName=RST Pin=C2-4-1
+Added Pin To Net: NetName=RST Pin=ISP-2
+Added Pin To Net: NetName=RST Pin=OLED-2
+Added Pin To Net: NetName=RST Pin=R1-1-1
+Added Pin To Net: NetName=RST Pin=U1-4
+Added Pin To Net: NetName=RST Pin=U1-6
+Added Pin To Net: NetName=RST Pin=U1-18
+Added Pin To Net: NetName=RST Pin=U2-16
+Added Room: Name=Sheet1

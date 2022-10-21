@@ -1,0 +1,273 @@
+Add Component: Footprint Not Found Nut Nhan 2 Chan SMD 3x6x2.5
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found C-RAD-0603
+Add Component: Footprint Not Found 61400416121
+Add Component: Footprint Not Found Header 1x1 long
+Add Component: Footprint Not Found Header 1x1 long
+Add Component: Footprint Not Found Header 1x1 long
+Add Component: Footprint Not Found Header 1x1 long
+Add Component: Footprint Not Found Header 1x4
+Add Component: Footprint Not Found Header 1x4
+Add Component: Footprint Not Found Header 1x4
+Added Component: Designator=U1(27_DIP_7.62mm)
+Add component (AddParameter): Name = "Case/Package"; Value = "PDIP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Microcontrollers"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/20168/73-4283-20168380.pdf?src-supplier=Rapid+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/20168/73-4283-20168380.pdf?src-supplier=Rapid+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.ciiva.com/19457/2139111-19457070.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.ciiva.com/19457/2139111-19457070.pdf?src-supplier=Jameco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.ciiva.com/1157/1684409-1157696.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.ciiva.com/1157/1684409-1157696.pdf?src-supplier=Element14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.ciiva.com/26818/atmega328p-pu-26818578.pdf?src-supplier=IIIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.ciiva.com/26818/atmega328p-pu-26818578.pdf?src-supplier=IIIC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "https://datasheet.ciiva.com/29119/155197-da-01-en-microcontr-atmega328p-pu-8bit-pdip-28-29119593.pdf?src-supplier=Conrad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "https://datasheet.ciiva.com/29119/155197-da-01-en-microcontr-atmega328p-pu-8bit-pdip-28-29119593.pdf?src-supplier=Conrad"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "https://datasheet.ciiva.com/15213/getdatasheetpartid-318533-15213133.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "https://datasheet.ciiva.com/15213/getdatasheetpartid-318533-15213133.pdf?src-supplier=Verical"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin,Matte"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Core Architecture"; Value = "AVR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Data Bus Width"; Value = "8b"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "20MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "3.28mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C,SPI,UART,USART,2-Wire"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "37.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Microchip / Atmel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "ATMEGA328P-PU"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Frequency"; Value = "20MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°„C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Size"; Value = "32KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Memory Type"; Value = "FLASH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°„C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "1.8V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Through Hole"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of ADC Channels"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of I2C Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of I/Os"; Value = "23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "28"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Programmable I/O"; Value = "23"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of PWM Channels"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of SPI Channels"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Timers/Counters"; Value = "3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Oscillator Type"; Value = "Internal"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Rail/Tube"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Peripherals"; Value = "Brown-out Detect/Reset,POR,PWM,WDT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=2,08000, 25=1,91000, 100=1,73000 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RAM Size"; Value = "2KB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "5280"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digi-Key"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "ATMEGA328P-PU-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Watchdog Timer"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "6.76mm"; VariantName = "[No Variations]"
+Added Component: Designator=X?(FOX-FOXSDLF160-20_V)
+Add component (AddParameter): Name = "Case\Package"; Value = "SOT-553-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.foxonline.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://foxonline.com/pdfs/hc49sdlf.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Mar-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.55 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Interface"; Value = "I2C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "1.6 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "150 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage"; Value = "3.3 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Supply Voltage (DC)"; Value = "6 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55 degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage"; Value = "1.4 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Supply Voltage (DC)"; Value = "4 V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "3 mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "2-Pin Surface Mount Device, Body 5 x 11.7 mm, Height 4.5 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "FOX-FOXSDLF160-20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Cut Tape"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pins"; Value = "6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "true"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "9.9E-05 oz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.2 mm"; VariantName = "[No Variations]"
+Added Component: Designator=Y2(FOX-HC49SDLF_V)
+Add component (AddParameter): Name = "Case/Package"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet URL"; Value = "http://www.foxonline.com/pdfs/hc49sdlf.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Version"; Value = "42064.0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ESR (Equivalent Series Resistance)"; Value = "80Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency"; Value = "8MHz"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Stability"; Value = "50ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Frequency Tolerance"; Value = "30ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "4.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "LeadFree"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "11.7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Load Capacitance"; Value = "20pF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "FOX Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer URL"; Value = "http://www.foxonline.com/"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "70degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-20degC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "SurfaceMount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Description"; Value = "2-Pin Surface Mount Device, Body 5 x 11.7 mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Quantity"; Value = "1000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package Reference"; Value = "HC49SDLF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "TapeandReel"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "NoSVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHSCompliant"; Value = "True"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series Resistance"; Value = "80Ohm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "50ppm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "5mm"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin BT1-1
+Add Pin To Net: Unknown Pin: Pin BT1-2
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C2-1
+Add Pin To Net: Unknown Pin: Pin C2-2
+Add Pin To Net: Unknown Pin: Pin C3-1
+Add Pin To Net: Unknown Pin: Pin C3-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin C7-1
+Add Pin To Net: Unknown Pin: Pin C7-2
+Add Pin To Net: Unknown Pin: Pin C8-1
+Add Pin To Net: Unknown Pin: Pin C8-2
+Add Pin To Net: Unknown Pin: Pin D2-1-1
+Add Pin To Net: Unknown Pin: Pin D2-1-2
+Add Pin To Net: Unknown Pin: Pin D2-2-1
+Add Pin To Net: Unknown Pin: Pin D2-2-2
+Add Pin To Net: Unknown Pin: Pin D2-3-1
+Add Pin To Net: Unknown Pin: Pin D2-3-2
+Add Pin To Net: Unknown Pin: Pin D2-4-1
+Add Pin To Net: Unknown Pin: Pin D2-4-2
+Add Pin To Net: Unknown Pin: Pin ISP-1
+Add Pin To Net: Unknown Pin: Pin ISP-2
+Add Pin To Net: Unknown Pin: Pin ISP-3
+Add Pin To Net: Unknown Pin: Pin ISP-4
+Add Pin To Net: Unknown Pin: Pin ISP-5
+Add Pin To Net: Unknown Pin: Pin ISP-6
+Add Pin To Net: Unknown Pin: Pin J1-1
+Add Pin To Net: Unknown Pin: Pin J1-2
+Add Pin To Net: Unknown Pin: Pin J1-3
+Add Pin To Net: Unknown Pin: Pin J1-4
+Add Pin To Net: Unknown Pin: Pin Key1-1
+Add Pin To Net: Unknown Pin: Pin Key2-1
+Add Pin To Net: Unknown Pin: Pin Key3-1
+Add Pin To Net: Unknown Pin: Pin Key4-1
+Add Pin To Net: Unknown Pin: Pin OLED-1
+Add Pin To Net: Unknown Pin: Pin OLED-2
+Add Pin To Net: Unknown Pin: Pin OLED-3
+Add Pin To Net: Unknown Pin: Pin OLED-4
+Add Pin To Net: Unknown Pin: Pin P2-2-1
+Add Pin To Net: Unknown Pin: Pin P2-2-2
+Add Pin To Net: Unknown Pin: Pin P2-2-3
+Add Pin To Net: Unknown Pin: Pin P2-2-4
+Add Pin To Net: Unknown Pin: Pin P2-2-5
+Add Pin To Net: Unknown Pin: Pin P2-2-6
+Add Pin To Net: Unknown Pin: Pin P2-3-1
+Add Pin To Net: Unknown Pin: Pin P2-3-2
+Add Pin To Net: Unknown Pin: Pin P2-3-3
+Add Pin To Net: Unknown Pin: Pin P2-3-4
+Add Pin To Net: Unknown Pin: Pin P2-3-5
+Add Pin To Net: Unknown Pin: Pin P2-3-6
+Add Pin To Net: Unknown Pin: Pin R2-1-1
+Add Pin To Net: Unknown Pin: Pin R2-1-2
+Add Pin To Net: Unknown Pin: Pin R2-2-1
+Add Pin To Net: Unknown Pin: Pin R2-2-2
+Add Pin To Net: Unknown Pin: Pin R2-3-1
+Add Pin To Net: Unknown Pin: Pin R2-3-2
+Add Pin To Net: Unknown Pin: Pin R2-4-1
+Add Pin To Net: Unknown Pin: Pin R2-4-2
+Add Pin To Net: Unknown Pin: Pin Sensor-1-1
+Add Pin To Net: Unknown Pin: Pin Sensor-1-2
+Add Pin To Net: Unknown Pin: Pin Sensor-1-3
+Add Pin To Net: Unknown Pin: Pin Sensor-2-1
+Add Pin To Net: Unknown Pin: Pin Sensor-2-2
+Add Pin To Net: Unknown Pin: Pin Sensor-2-3
+Add Pin To Net: Unknown Pin: Pin Sensor-2-4
+Added Pin To Net: NetName=RESET Pin=U1-1
+Added Pin To Net: NetName=RX Pin=U1-2
+Added Pin To Net: NetName=TX Pin=U1-3
+Added Pin To Net: NetName=NetR2_2 Pin=U1-4
+Added Pin To Net: NetName=NetR1_2 Pin=U1-6
+Added Pin To Net: NetName=VBUS Pin=U1-7
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=NetC4_1 Pin=U1-9
+Added Pin To Net: NetName=NetC3_2 Pin=U1-10
+Added Pin To Net: NetName=Echo2 Pin=U1-12
+Added Pin To Net: NetName=Trigger2 Pin=U1-13
+Added Pin To Net: NetName=SDA Pin=U1-14
+Added Pin To Net: NetName=SCL Pin=U1-15
+Added Pin To Net: NetName=MOSI Pin=U1-17
+Added Pin To Net: NetName=MISO Pin=U1-18
+Added Pin To Net: NetName=SCK Pin=U1-19
+Added Pin To Net: NetName=VBUS Pin=U1-20
+Added Pin To Net: NetName=NetC1_2 Pin=U1-21
+Added Pin To Net: NetName=GND Pin=U1-22
+Added Pin To Net: NetName=OUT1 Pin=U1-23
+Added Pin To Net: NetName=OUT2 Pin=U1-24
+Added Pin To Net: NetName=OUT3 Pin=U1-25
+Added Pin To Net: NetName=OUT4 Pin=U1-26
+Added Pin To Net: NetName=Echo Pin=U1-27
+Added Pin To Net: NetName=Trigger Pin=U1-28
+Add Pin To Net: Unknown Pin: Pin U3-1
+Add Pin To Net: Unknown Pin: Pin U3-2
+Add Pin To Net: Unknown Pin: Pin U3-3
+Add Pin To Net: Unknown Pin: Pin U3-5
+Add Pin To Net: Unknown Pin: Pin U3-6
+Add Pin To Net: Unknown Pin: Pin U3-7
+Add Pin To Net: Unknown Pin: Pin U3-8
+Add Pin To Net: Unknown Pin: Pin U3-14
+Add Pin To Net: Unknown Pin: Pin U3-16
+Added Pin To Net: NetName=NetC4_1 Pin=X?-1
+Added Pin To Net: NetName=NetC3_2 Pin=X?-2
+Added Pin To Net: NetName=NetC7_1 Pin=Y2-1
+Added Pin To Net: NetName=NetC8_1 Pin=Y2-2
+Add Class Member: Failed to add class member : Component BT1 Nut Nhan 2 Chan SMD 3x6x2.5
+Add Class Member: Failed to add class member : Component C1 Cap
+Add Class Member: Failed to add class member : Component C2 Cap
+Add Class Member: Failed to add class member : Component C3 Cap
+Add Class Member: Failed to add class member : Component C4 Cap
+Add Class Member: Failed to add class member : Component C5 Cap
+Add Class Member: Failed to add class member : Component C6 Cap
+Add Class Member: Failed to add class member : Component C7 Cap
+Add Class Member: Failed to add class member : Component C8 Cap
+Add Class Member: Failed to add class member : Component D2-1 Light-Emitting Diode
+Add Class Member: Failed to add class member : Component D2-2 Light-Emitting Diode
+Add Class Member: Failed to add class member : Component D2-3 Light-Emitting Diode
+Add Class Member: Failed to add class member : Component D2-4 Light-Emitting Diode
+Add Class Member: Failed to add class member : Component ISP Header 2x5
+Add Class Member: Failed to add class member : Component J1 USB 2.0 Type B
+Add Class Member: Failed to add class member : Component Key1 Key
+Add Class Member: Failed to add class member : Component Key2 Key
+Add Class Member: Failed to add class member : Component Key3 Key
+Add Class Member: Failed to add class member : Component Key4 Key
+Add Class Member: Failed to add class member : Component OLED Header 1x4
+Add Class Member: Failed to add class member : Component P2-2 Header 2x5
+Add Class Member: Failed to add class member : Component P2-3 Header 2x5
+Add Class Member: Failed to add class member : Component R2-1 Resistor
+Add Class Member: Failed to add class member : Component R2-2 Resistor
+Add Class Member: Failed to add class member : Component R2-3 Resistor
+Add Class Member: Failed to add class member : Component R2-4 Resistor
+Add Class Member: Failed to add class member : Component Sensor-1 Header 1x4
+Add Class Member: Failed to add class member : Component Sensor-2 Header 1x4
+Added Member To Class: ClassName=main Member=Component U1 ATMEGA328P-PU
+Add Class Member: Failed to add class member : Component U3 Component_1
+Added Member To Class: ClassName=main Member=Component X? FOXSDLF/160-20
+Added Member To Class: ClassName=main Member=Component Y2 FOXSDLF/080-20
+Added Room: Name=main
+Added Room: Name=TTP224
